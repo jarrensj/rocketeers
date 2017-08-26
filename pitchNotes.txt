@@ -1,0 +1,25 @@
+# Pitch Notes
+
+## Problem
+
+Story: When you donate blood, it either goes to be sold to a hospital or sold to cover operating costs.
+
+## Solution
+We made a ‘feel good’ app that checks accountability and lets you know where your blood goes… whether it helps a person or to cover operating costs.
+We also reward people that donate blood, tokens called ate
+That takes a cut of of the money and the donator can decide what charity they will have to donate to
+2 good deeds in 1! Donating blood and to charity of your choice
+
+## Demo time!
+
+
+## Team, viability, road map, other stuff to share
+
+* Companies often match donations and they can have match these tokens
+* Some times hospital runs low, we can have 2x token events during this time frame
+* As well as the reputation part of this, the donor can see their track record of donations, charities donated to and how many times they donated blood
+* This can help the healthcare system overall by promoting people do keep helping the help system
+* Someone that donates blood a lot, the hospital could potentially see this (but hippa and phi) and they could be bumped up in queue to get blood when needed since they are active participant in helping healthcare by giving blood frequency
+* Insurance companies can see this and since people that generally give blood are healthier
+
+## Questions? 
