@@ -13,7 +13,12 @@
   },
   "babel": {
     "presets": [
-      ["vue-app", {"useBuiltIns": true}]
+      [
+        "vue-app",
+        {
+          "useBuiltIns": true
+        }
+      ]
     ]
   },
   "author": {
@@ -23,7 +28,8 @@
   "dependencies": {
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
-    "promise-polyfill": "^6.0.2"
+    "promise-polyfill": "^6.0.2",
+    "web3": "^1.0.0-beta.18"
   },
   "devDependencies": {
     "poi": "^9.0.0",
