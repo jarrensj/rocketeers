@@ -1,8 +1,8 @@
 {
   "private": true,
-  "name": "DappathonRocketeers",
-  "productName": "DappathonRocketeers",
-  "description": "Our ethereum app created at BCG&#39;s Dappathon",
+  "name": "BloodAtomics",
+  "productName": "BloodAtomics",
+  "description": "An Ethereum dap for BCG DV&#39;s Dappathon 2017",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -13,12 +13,7 @@
   },
   "babel": {
     "presets": [
-      [
-        "vue-app",
-        {
-          "useBuiltIns": true
-        }
-      ]
+      ["vue-app", {"useBuiltIns": true}]
     ]
   },
   "author": {
@@ -26,14 +21,15 @@
     "email": "johnphammail@gmail.com"
   },
   "dependencies": {
+    "offline-plugin": "^4.8.0",
     "normalize.css": "^7.0.0",
     "object-assign": "^4.1.1",
-    "promise-polyfill": "^6.0.2",
-    "web3": "^1.0.0-beta.18"
+    "promise-polyfill": "^6.0.2"
   },
   "devDependencies": {
     "poi": "^9.0.0",
     "poi-preset-bundle-report": "^2.0.0",
-    "serve": "^3.1.0"
+    "serve": "^3.1.0",
+    "poi-preset-offline": "^9.0.0"
   }
 }
