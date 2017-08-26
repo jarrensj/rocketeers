@@ -1,6 +1,6 @@
 # Blood Blockchain
 
-People donate blood 
+People donate blood
 They can see how many people their blood helps or if it gets sold to cover operating costs
 They get tokens / reputation for doing so
 They can redeem these tokens and % will get donated to charity
@@ -12,23 +12,6 @@ helps charities and helps patients get more blood
 this app helps people as we try to reduce shortage of blood
 
 this reputation of the person, person gives blood
-maybe that could help them be bumped up in receiving blood when they need it 
+maybe that could help them be bumped up in receiving blood when they need it
 since they have been an active giver of blood
 also insurance companies see this and see, normally healthy indivudal
-
-## Coin
-
-* Atom
-* Atmo
-* Ato
-
-## Problem
-
-## Solution
-
-## Front-end Features
-
-* Search for properties
-* View a renter's history
-* Create a contract
-
