@@ -11,6 +11,10 @@ when hospitals are short on blood, we can have a 2x event where blood donations 
 helps charities and helps patients get more blood
 this app helps people as we try to reduce shortage of blood
 
+this reputation of the person, person gives blood
+maybe that could help them be bumped up in receiving blood when they need it 
+since they have been an active giver of blood
+also insurance companies see this and see, normally healthy indivudal
 
 ## Coin
 
