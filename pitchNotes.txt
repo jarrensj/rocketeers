@@ -1,3 +1,21 @@
+Donor chain
+
+Donor market
+
+the list is known of who is next in line
+They can see if the kidney (From a organ donor) will actually go to next in line, and not to the black market
+Get tokens to help bury the donor
+
+Maybe also see the organ of their family into who has it now
+
+but only if they sign the disclosure,
+Otherwise right now it’s de identified
+
+
+
+Hiv contamination and tracking that
+
+
 # Pitch Notes
 
 ## Problem
@@ -22,4 +40,4 @@ That takes a cut of of the money and the donator can decide what charity they wi
 * Someone that donates blood a lot, the hospital could potentially see this (but hippa and phi) and they could be bumped up in queue to get blood when needed since they are active participant in helping healthcare by giving blood frequency
 * Insurance companies can see this and since people that generally give blood are healthier
 
-## Questions? 
+## Questions?
