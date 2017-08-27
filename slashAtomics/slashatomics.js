@@ -1,9 +1,4 @@
-<html>
-<head>
-    <title>Not so simple storage</title>
-    <script src="web3.min.js"></script>
-    <script src="ipfs.js"></script>
-    <script>
+
         // Config
         var ipfsHost    = '45.55.29.43',
             ipfsAPIPort = '5001',
@@ -17,7 +12,6 @@
             if (err) {
                 console.error(err);
             } else {
-                console.log("IPFS - connected to " + response.Strings.length + " peers");
                 console.log(response);
             }
         });
@@ -163,31 +157,11 @@
                 } else if (result && result[0] && result[0].Hash) {
                     var imageURL = window.ipfsDataHost + "/" + result[0].Hash;
                     console.log('File: ', result[0].Hash);
-                    console.log(imageURL);
+                    console.log('Organ search submitted!');
                 } else {
                     console.error('No file for you...');
                     return null;
                 }
             });
         }
-    </script>
-</head>
-<body>
-    <p>Open the JavaScript console to use the application.</p>
-    <ul>Usage:
-        <li><code>deployContract()<code>: deploy Ethereum contract</li>
-        <li><code>addFile(URL)<code>: save a file to IPFS</li>
-        <li><code>sendTransaction(IPFSHash)<code>: send a transaction to the Ethereum contract</li>
-        <li><code>getData()<code>: get the latest value (IPFS hash) stored in the Ethereum contract</li>
-    </ul>
-
-<button type="button" onclick="clickHandler()">Click Me!</button>
-
-<script>
-    function clickHandler() {
-      alert("something");
-    }
-</script>
-
-</body>
-
+window.onload = deployContract();
