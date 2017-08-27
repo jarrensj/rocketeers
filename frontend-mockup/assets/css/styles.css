@@ -651,6 +651,7 @@ a.btn-cta {
 #team-section .profile-image {
     width: 120px;
     height: 120px;
+    border-radius: 200px;
 }
 #team-section .members-wrapper {
     max-width: 800px;
@@ -658,7 +659,7 @@ a.btn-cta {
 }
 #team-section .item-inner {
     padding: 30px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.75);
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
@@ -886,7 +887,7 @@ a.btn-cta {
         max-width: 500px;
     }
     #team-section .item-inner {
-        min-height: 490px;
+        min-height: 250px;
     }
 }
 /* Large devices (large desktops, 1200px and up) */
