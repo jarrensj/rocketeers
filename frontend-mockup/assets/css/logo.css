@@ -1,0 +1,34 @@
+@media only screen {
+  .logo {
+    font-size: 5em;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background: linear-gradient(left, #33235B, #D62229, #E97639, #792042, #33235B);
+    background-size: 3200px 200px;
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: animate-logo;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+    transition: font-size 500ms ease-in-out;
+  }
+}
+@-webkit-keyframes animate-logo {
+  0% {
+    background-position: 0 3200px;
+  }
+  100% {
+    background-position: 3200px 0;
+  }
+}
+
+#js-rotating {
+  color: #FFF;
+}
+
+#hero-text img {
+  width: 30%;
+}
