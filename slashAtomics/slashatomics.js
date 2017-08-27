@@ -135,7 +135,6 @@
                     console.error('Error getting data: ', err);
                 } else if (result) {
                     if (window.currentIPFSHash == result) {
-                        console.log("New data hasn't been mined yet. This is your current data: ", result);
                         return;
                     }
 
@@ -157,7 +156,9 @@
                 } else if (result && result[0] && result[0].Hash) {
                     var imageURL = window.ipfsDataHost + "/" + result[0].Hash;
                     console.log('File: ', result[0].Hash);
-                    console.log('Organ search submitted!');
+                    console.log('Organ reservation request submitted!');
+	sendTransaction(result[0].Hash);
+	getData();
                 } else {
                     console.error('No file for you...');
                     return null;

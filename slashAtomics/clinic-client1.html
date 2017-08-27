@@ -12,6 +12,11 @@
     <script src="web3.min.js"></script>
     <script src="ipfs.js"></script>
     <script src="slashatomics.js"></script>
+<script>
+function reserveAction() {
+	addFile('http://i.imgur.com/bRatMs7.jpg');
+}
+</script>
 <style>
 html,body {
 height: 100%;
@@ -23,28 +28,33 @@ height: 100%;
       <div class="section section-signup" style="background-image: url('https://i.pinimg.com/originals/41/8e/a5/418ea5d359f95199eb58817d11ac65c2.jpg'); background-size: cover; background-position: top center;height:100%;">
                 <div class="container">
                     <div class="row">
+                        <div class="card card-signup" data-background-color="orange">
+                            <form class="form" method="" action="">
+                                <div class="header header-primary text-center">
+                                    <h4 class="title title-up">Organ Reservation</h4>
+                                </div>
                         <div class="col-lg-12">
                             <!-- Nav tabs -->
                             <div class="card">
                                 <ul class="nav nav-tabs justify-content-center" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
-                                            <i class="now-ui-icons objects_umbrella-13"></i> Heart
+                                            Heart
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
-                                            <i class="now-ui-icons shopping_cart-simple"></i> Lung
+                                             Lung
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
-                                            <i class="now-ui-icons shopping_shop"></i> Liver
+                                             Liver
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
-                                            <i class="now-ui-icons ui-2_settings-90"></i> Kidney
+                                             Kidney
                                         </a>
                                     </li>
                                 </ul>
@@ -52,54 +62,42 @@ height: 100%;
                                     <!-- Tab panes -->
                                     <div class="tab-content text-center">
                                         <div class="tab-pane active" id="home" role="tabpanel">
-<img src="https://freeiconshop.com/wp-content/uploads/edd/heart-compact-flat.png">
+<img style="height:150px;" src="https://freeiconshop.com/wp-content/uploads/edd/heart-compact-flat.png">
                                         </div>
                                         <div class="tab-pane" id="profile" role="tabpanel">
-<img src="https://image.flaticon.com/icons/png/512/188/188427.png">
+<img style="height:150px;" src="https://image.flaticon.com/icons/png/512/188/188427.png">
                                         </div>
                                         <div class="tab-pane" id="messages" role="tabpanel">
-<img src="http://www.triowebptc.org/images/icons/liver-icon-light.png">
+<img style="height:150px;" src="http://www.triowebptc.org/images/icons/liver-icon-light.png">
                                         </div>
                                         <div class="tab-pane" id="settings" role="tabpanel">
-<img src="http://www.msd.com/images/about/world-diabetes-day-16/wd2_icon_kidney.png">
+<img style="height:150px;" src="http://www.msd.com/images/about/world-diabetes-day-16/wd2_icon_kidney.png">
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                    <div class="row">
-                        <div class="card card-signup" data-background-color="orange">
-                            <form class="form" method="" action="">
-                                <div class="header header-primary text-center">
-                                    <h4 class="title title-up">Organ Reservation</h4>
-                                </div>
                                 <div class="content">
                                     <div class="input-group form-group-no-border">
                                         <span class="input-group-addon">
                                             <i class="fa fa-star"></i>
                                         </span>
-                                        <input type="text" class="form-control" placeholder="First Name...">
+                                        <input type="text" class="form-control" placeholder="First Name">
                                     </div>
                                     <div class="input-group form-group-no-border">
                                         <span class="input-group-addon">
                                             <i class="fa fa-star"></i>
                                         </span>
-                                        <input type="text" class="form-control" placeholder="Email...">
+                                        <input type="text" class="form-control" placeholder="ID Number">
                                     </div>
                                     <div class="input-group form-group-no-border">
                                         <span class="input-group-addon">
                                             <i class="fa fa-star"></i>
                                         </span>
-                                        <input type="password" placeholder="Password..." class="form-control" />
-                                    </div>
-                                    <div class="checkbox">
-									<input id="checkboxSignup" type="checkbox">
-										<label for="checkboxSignup">
-										Unchecked
-										</label>
-									</div>
+                                        <input type="text" class="form-control" placeholder="Location">
+                                   </div>
                                 </div>
                                 <div class="footer text-center">
-                                    <a href="#pablo" class="btn btn-neutral btn-round btn-lg">Submit</a>
+                                    <div onclick="reserveAction()" class="btn btn-neutral btn-round btn-lg">Reserve</div>
                                 </div>
                             </form>
                         </div>
@@ -116,8 +114,6 @@ height: 100%;
 <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
 <script src="./assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-<!-- Share Library etc -->
-<script src="./assets/js/plugins/jquery.sharrre.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="./assets/js/now-ui-kit.js" type="text/javascript"></script>
 </html>
