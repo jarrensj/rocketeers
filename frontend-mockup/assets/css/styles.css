@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #494d55;
     font-size: 14px;
     -webkit-font-smoothing: antialiased;
@@ -623,7 +623,7 @@ a.btn-cta {
 #team-section {
     padding-top: 90px;
     padding-bottom: 90px;
-    background: #286090 url('http://cdn.wallpapersafari.com/75/79/oDkgG1.jpg') no-repeat center center;
+    background: #286090 url('../images/background1.png') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
