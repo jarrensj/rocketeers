@@ -1,4 +1,3 @@
-
 <html lang="">
 
 <head>
@@ -191,19 +190,19 @@ pragma solidity ^0.4.6;
 contract MyContract {
 
   uint   num;
-                
+
   event NumberSetEvent(address indexed caller, bytes32 indexed oldNum, bytes32 indexed newNum);
 
    function getNum()  returns (uint n) {
      return num;
   }
-               
+
    function setNum(uint n) {
       uint old = num;
       num=n;
       NumberSetEvent(msg.sender,bytes32(old),bytes32(num));
    }
-               
+
    function MyContract(uint x){num=x;}
 }
 
@@ -293,7 +292,7 @@ contract MyContract {
 
       <span>Topics</span>
       <pre>[0=event sig,1=addr,2 &amp; 3=32byteHex]</pre>
-      <!-- The default for the 
+      <!-- The default for the
        NumberSetEvent(address indexed caller, bytes32 indexed oldNum, bytes32 indexed newNum)
        [0]=Signature of the event
        [1]=Address of the caller
@@ -313,7 +312,7 @@ contract MyContract {
     <pre id='options_filter'></pre>
   </div>
   <!-- Add a watch -->
-  
+
   <div class="sidekick">
     <h1>Watch</h1>
     <span><button onclick="doFilterWatchStart()">Watch()</button></span>
@@ -389,6 +388,48 @@ contract MyContract {
       </ol>
     </div>
   </div>
+
+
+    <!-- needs list -->
+    <!-- contract.myEvent & allEvent -->
+    <div class="hero-unit">
+      <h1>Contract Events</h1>
+      <!-- Watch events from specific contract instance -->
+      <div class="sidekick">
+        <h1>People that need KIDNEY </h1>
+          <ul>
+            <li>x0A342XZD</li>
+            <li>x019DMZED</li>
+            <li>x009ADFCED</li>
+         </ul>
+
+      </div>
+      <div class="sidekick">
+        <h1>Events/Logs (5 Latest)</h1>
+        <span>Recieve Count:</span><span id="watch_contract_instance_event_count" class="notready">Not Watching</span>
+        <ol id="watch_contract_events_list">
+          <!-- This is where the events will be added -->
+          KIDNEY RECEIVED BY x0A341XZD <br />
+          KIDNEY RECEIVED BY x0A341XZD <br />
+          KIDNEY RECEIVED BY x0A341XZD <br />
+        </ol>
+      </div>
+      <!-- contract event.get -->
+      <div class="sidekick">
+        <h1>Contract Instance Logs</h1>
+        <span><button onclick="doContractEventGet()">event.Get()</button></span>
+      </div>
+      <div class="sidekick">
+        <h1>Logs</h1>
+        <span>Recieve Count:</span><span id="get_contract_instance_log_count" class="notready">....</span>
+        <ol id="get_contract_instance_logs_list">
+          <!-- This is where the events will be added -->
+        </ol>
+      </div>
+    </div>
+
+
+
 
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
