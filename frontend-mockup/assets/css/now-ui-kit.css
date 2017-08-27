@@ -931,8 +931,8 @@ body {
   text-decoration: none; }
 
 .btn-success {
-  background-color: #18ce0f;
-  color: #FFFFFF; }
+  background-color: #FFF;
+  color: #000; }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success:active:focus, .btn-success:active:hover, .btn-success.active:focus, .btn-success.active:hover, .open > .btn-success.dropdown-toggle, .open > .btn-success.dropdown-toggle:focus, .open > .btn-success.dropdown-toggle:hover {
   background-color: #15b60d;
   color: #FFFFFF; }
