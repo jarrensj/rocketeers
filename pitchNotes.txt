@@ -4,6 +4,9 @@
  -- doctor, two engineers, flash through slides
 
  - PROBLEM - people are dying on waiting list
+ 
+
+ -- over one hundred thousand waiting
  -- 38 die 
  -- every 10 minutes someone gets added
 
@@ -16,6 +19,8 @@
  - also consider transportation, making decentralized
  - 38 die
 
+ -- currently a non profit is handling this all on a centralized network
+ -- time to leverage the latest tech - blockchain
 end 60 seconds
 rush through ADDRESS Problem so we don't waste time here
 
