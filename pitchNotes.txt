@@ -22,9 +22,23 @@ rush through ADDRESS Problem so we don't waste time here
 2 minute: demo
 - now take your time talking
 - done with presentation
+
+
+- front end portal
+- login 
+- we can access the blockchain euth ipfs
+- right now, we implemented where they see organ and expiration
+- later, auto route alogirthm coud be a possibily
+- click, send to facility, (make sure transportation, expiration works out)
+
+we aren't saying the other one is bad, just centralized and WAY too much responsibliity 
+- time to leverage new technology to help people
+
+- we are doing this to have people not die unneccessarily
+
 2 minute: questions
  - judges and audience asks us questions
-
+ - 
 
 
 Disregard below this line
