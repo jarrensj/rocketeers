@@ -1,9 +1,27 @@
-1 minute: address problem
- - big number on waiting list
- - every 10 minutes someone gets added
- - heart only last 4 hours
+# Pitch notes
+## 1 minute: address problem
+ - 10 seconds max, establish credibility
+ -- doctor, two engineers, flash through slides
+
+ - PROBLEM - people are dying on waiting list
+ -- 38 die 
+ -- every 10 minutes someone gets added
+
+ -- heart only last 4 hours
+ - you have to time it correctly, transport, everything
+ - this is a time crtical thing 
+ - and what if downtime?? downtime = death
+
  - downtime = death
+ - also consider transportation, making decentralized
+ - 38 die
+
+end 60 seconds
+rush through ADDRESS Problem so we don't waste time here
+
 2 minute: demo
+- now take your time talking
+- done with presentation
 2 minute: questions
  - judges and audience asks us questions
 
