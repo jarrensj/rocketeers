@@ -1,3 +1,18 @@
+1 minute: address problem
+ - big number on waiting list
+ - every 10 minutes someone gets added
+ - heart only last 4 hours
+ - downtime = death
+2 minute: demo
+2 minute: questions
+ - judges and audience asks us questions
+
+
+
+Disregard below this line
+-------------------
+
+
 Donor chain
 
 Donor market
